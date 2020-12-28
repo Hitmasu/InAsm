@@ -23,7 +23,7 @@ class Program {
   [InAsm]
   public static int ConstValue () {
     Assembler assembler = new Assembler (64);
-    assembler.mov (rax, 0x1234);
+    assembler.mov (rax, 3778);
     assembler.ret ();
     return default;
   }
@@ -31,7 +31,7 @@ class Program {
   static void Main (string[] args) {
     JitexManager.LoadModule<InAsmModule> ();
     int sum = Sum (5, 5); //output is 25
-	int value = ConstValue();
+    int value = ConstValue(); //output is 3778
   }
 }
 ```
