@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InAsm", "InAsm\InAsm.csproj", "{B00BA65A-5723-4E3B-B96F-A5301DAFF55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InAsmTest", "InAsmTest\InAsmTest.csproj", "{01D2403B-2ADF-4448-84E2-5C4EDB75BAFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B00BA65A-5723-4E3B-B96F-A5301DAFF55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00BA65A-5723-4E3B-B96F-A5301DAFF55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00BA65A-5723-4E3B-B96F-A5301DAFF55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00BA65A-5723-4E3B-B96F-A5301DAFF55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D2403B-2ADF-4448-84E2-5C4EDB75BAFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D2403B-2ADF-4448-84E2-5C4EDB75BAFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D2403B-2ADF-4448-84E2-5C4EDB75BAFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D2403B-2ADF-4448-84E2-5C4EDB75BAFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
