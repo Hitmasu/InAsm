@@ -1,6 +1,6 @@
 # InAsm
 
-A simple way to run assembly inside a method using Iced and Jitex:
+A simple way to run assembly inside a method using [Jitex](https://github.com/Hitmasu/Jitex) and [Iced](https://github.com/0xd4d/iced):
 
 ```cs
 class Program {
