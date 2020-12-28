@@ -26,7 +26,7 @@ namespace InAsmTest
         }
 
         [InAsm]
-        public static int MultipleTest()
+        public static int ConstValue()
         {
             Assembler assembler = new Assembler(64);
             assembler.mov(rax,0x1234);
@@ -38,8 +38,7 @@ namespace InAsmTest
         {
             JitexManager.LoadModule<InAsmModule>();
             int sum = Sum(5,5);
-            Console.WriteLine(sum);
-            Console.ReadKey();
+            int value = ConstValue();
         }
     }
 }
