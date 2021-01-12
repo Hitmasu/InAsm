@@ -6,7 +6,7 @@ A simple way to run assembly inside a method using [Jitex](https://github.com/Hi
 class Program {
 
   [InAsm]
-  public static int Sum (int n1, int n2) {
+  public static int Mul (int n1, int n2) {
     Assembler assembler = new Assembler (64);
     assembler.push (rbp);
     assembler.sub (rsp, 4);
@@ -30,7 +30,7 @@ class Program {
 
   static void Main (string[] args) {
     JitexManager.LoadModule<InAsmModule> ();
-    int sum = Sum (5, 5); //output is 25
+    int mul = Mul (5, 5); //output is 25
     int value = ConstValue(); //output is 3778
   }
 }
